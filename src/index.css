@@ -1,5 +1,30 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background: #b4f0f3;
+  color: #fff;
+
 }
+h1{
+  font-family: 'Cairo', sans-serif;
+}
+h2{
+  font-family: 'Crete Round', serif;
+}
+
+h3{
+  font-family: 'Crete Round', serif;
+}
+
+h4{
+  font-family: 'Crete Round', serif;
+}
+
+h5{
+  font-family: 'Crete Round', serif;
+}
+
+h6{
+  font-family: 'Crete Round', serif;
+}
+
