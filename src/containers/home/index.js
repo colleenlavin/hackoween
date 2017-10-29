@@ -20,20 +20,20 @@ const Home = props => (
           <h1>What issues matter to you?</h1>
           <div className="imgHolder">
           <Link to="/message">
-          <a href="/"><img border="0" alt="Pollution" width ="75%" src="https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/Cesars-Today-Top-Ten-Puppy-Tips.jpg?itok=T2AuVJHq" width="100" height="100" /></a>
-            <span>Pollution</span>
+          <a href="/"><img border="0" alt="Pollution" width ="75%" src="https://scontent.fsan1-1.fna.fbcdn.net/v/t34.0-12/22901742_2064205923807593_1891655280_n.jpg?oh=54838335d2395f111ddf64b6a4e2209b&oe=59F7D21B" width="100" height="100" /></a>
+            <span>Environmental Impact</span>
           </Link>
           </div>
           <div className="imgHolder">
           <Link to="/message">
-            <a href="/"><img border="0" alt="Pollution" src="https://kittenrescue.org/wp-content/uploads/2017/03/KittenRescue_KittenCareHandbook.jpg" width="100" height="100" /></a>
-            <span>Pollution</span>
+            <a href="/message"><img border="0" alt="Civic Engagement" src="https://media.nbcsandiego.com/images/1200*675/SDSU-President-Protest-042816.jpg" width="100" height="100" /></a>
+            <span>Civic Engagement</span>
             </Link>
           </div>
           <div className="imgHolder">
           <Link to="/message">
-            <a href="/"><img border="0" alt="Pollution" src="http://purrtacular.com/wp-content/uploads/2017/01/husky-dog-mother-rescues-kitten-15.jpg" width="100" height="100" /></a>
-            <span>Pollution</span>
+            <a href="/"><img border="0" alt="Pollution" src="https://scontent.fsan1-1.fna.fbcdn.net/v/t35.0-12/23107515_2064207863807399_1145578751_o.jpg?oh=e904aae7509381144e7c19b51ae0a2eb&oe=59F80B93" width="100" height="100" /></a>
+            <span>Urban Development</span>
            </Link>
           </div>
       </div>
