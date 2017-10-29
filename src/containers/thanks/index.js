@@ -3,14 +3,14 @@ import './style.css';
 import Header from '../header'
 import { Route, Link } from 'react-router-dom'
 
-class Screen5 extends Component {
-  render() {
-    return (
-      <div className="App">
-         <Header />
-         <h1>Thank you!</h1>
+
+export default () => (
+  <div>
+      <div className="screen2">
+        <Header />
+         <h1>Thank you for doing your civic duty!</h1>
       </div>
-    );
-  }
-}
-export default Screen5;
+      <button className="button"> <Link to="/">Complain Again!  </Link></button>
+
+  </div>
+)
