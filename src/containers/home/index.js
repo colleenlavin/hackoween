@@ -15,10 +15,10 @@ import Header from '../header'
 const Home = props => (
   <div className="App">
       <Header />
-        <p className="App-intro">
+       
           <h1>What issues matter to you?</h1>
           <div className="imgHolder">
-            <a href="/"><img border="0" alt="Pollution" src="https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/Cesars-Today-Top-Ten-Puppy-Tips.jpg?itok=T2AuVJHq" width="100" height="100" /></a>
+            <a href="/"><img border="0" alt="Pollution" width ="75%" src="https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/Cesars-Today-Top-Ten-Puppy-Tips.jpg?itok=T2AuVJHq" width="100" height="100" /></a>
             <span>Pollution</span>
           </div>
           <div className="imgHolder">
@@ -29,7 +29,6 @@ const Home = props => (
             <a href="/"><img border="0" alt="Pollution" src="http://purrtacular.com/wp-content/uploads/2017/01/husky-dog-mother-rescues-kitten-15.jpg" width="100" height="100" /></a>
             <span>Pollution</span>
           </div>
-        </p>
       </div>
 )
 

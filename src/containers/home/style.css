@@ -15,25 +15,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  img{
-    width: 75%;
-    height: 375px;
-    position: relative; 
-    padding: 20px;
-    border-radius: 35px;
-    align-content: center;
-  }
-  .imgHolder {
-    position: relative;
-  }
-  .imgHolder span {
-    position: absolute; 
-    top: 200px; 
-    left: 0; 
-    width: 100%; 
-    color: #fff;
-    font-size: 2em;
-  }
+ 
   .container {
     margin: 0 auto;
     padding: 20px 0;
@@ -82,4 +64,22 @@
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
   }
-  
+  img{
+     width:65%;
+     height: 375px;
+     position: relative; 
+     padding: 20px;
+     border-radius: 35px;
+     align-content: center;
+   }
+   .imgHolder {
+     position: relative;
+   }
+   .imgHolder span {
+     position: absolute; 
+     top: 200px; 
+     left: 0; 
+     width: 100%; 
+     color: #fff;
+     font-size: 2em;
+   }
