@@ -4,6 +4,7 @@ import Home from '../home'
 import About from '../about'
 import Message from '../message'
 import Image from '../images'
+import Thanks from '../thanks'
 
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
       <Route exact path="/about-us" component={About} />
       <Route exact path="/message" component={Message} />
       <Route exact path="/select-image" component={Image} />
+      <Route exact path="/thanks" component={Thanks} />
     </main>
   </div>
 )
