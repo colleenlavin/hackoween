@@ -1,0 +1,33 @@
+﻿<html>
+  <head	>
+    <style>
+       #map{
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3 style="text-align:center">Lob City Map</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var lob = {lat: 32.717163, lng: -117.162958};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: lob
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkDP70FZJS8YBQG9fM2l_m6i2vO9LOH4M
+&callback=initMap">
+    </script>
+  </body>
+</html>
+
+
